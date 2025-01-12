@@ -32,7 +32,7 @@ def get_full_transcript(transcript):
 
 def summarize_text_with_groq(text):
     """Summarize the given text using the Groq model."""
-    api_key = "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"
+    api_key = "set api key here"
     agent = Agent(
         model=Groq(id="llama-3.2-3b-preview", api_key=api_key),
         markdown=True
